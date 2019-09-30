@@ -9,13 +9,12 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/web_gold.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webBuild_gold.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
-    <h1>Susan's 494 Game Profile</h1>
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 256px; height: 240px"></div>
+      <div id="unityContainer" style="width: 768px; height: 720px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
